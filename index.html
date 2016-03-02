@@ -1,0 +1,233 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>MoyArt Landing Page</title>
+<!-- Sea cools, visite http://www.moyart.com.mx -->
+<!-- Meta tags de Facebook (Open Graph) -->
+<!-- Con esta etiqueta declaramos el título que queremos que contenga al darle share -->
+<meta property="og:title" content="" />
+<!-- Con esta etiqueta mostramos una imagen al momento de dar share en facebook -->
+<meta property="og:image" content="" />
+<!-- Con esta etiqueta mostramos el nombre de nuestro sitio web al momento de dar share en facebook -->
+<meta property="og:site_name" content="" />
+<!-- Con esta etiqueta mostramos una descripción acerca de lo que trata nuestra página web al momento de dar share en facebook -->
+<meta property="og:description" content="" />
+
+<!-- Corre el sitio en modo full-screen dentro de los móbiles que lo soportan. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- Hace que la barra de status aparezca negra con texto blanco en iphones. -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- Deshabilita la detección automática de números de teléfono, es una cuestión de seguridad. -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Pone el sitio en el tamaño que debe ser y evita que el usuario pueda hacer zoom en la página. -->
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+     
+<!-- Iconos para el navegador (los íconos que aparecen en los tabs y en los bookmarks) -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="bookmark" href="images/favicon.ico">
+    
+<!-- Iconos para ipad e iphone (íconos que aparecen en el home al momento de guardar la página) -->
+<!-- Ícono usado para iphone 3gs para atrás -->
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon-precomposed.png">
+<!-- Ícono usado en ipads de anterior generación -->
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72-precomposed.png">
+<!-- Ícono utilizado en iphone 4 para adelante -->
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114-precomposed.png">
+<!-- Ícono utilizado para ipads de nueva generación -->
+<link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144-precomposed.png">
+    
+<!-- Hojas de estilo base -->
+<link rel="stylesheet" href="css/bootstrap.min.css"><!-- Hoja de bootstrap -->
+<link rel="stylesheet" type="text/css" href="style.css"><!-- Hoja personalizada -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+
+
+
+<!-- Código que sirve para que internet explorer rendereé correctamente las etiquetas de html5 -->
+<!--[if IE]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+    <!-- INICIA LA BARRA DE NAVEGACION FIJA AL TOP-->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="images/frontasticoLogosm.png" alt="Frontastico by MoyArt Logo"></a> 
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#acercaDe">Acerca de</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#NuestroEquipo">NuestroEquipo</a></li>
+                    <li><a href="#Newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- INICIA EL HEADER DE LA PAGINA PRINCIPAL -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+                    <h1>Amamos el Front-End</h1>
+                    <form action="" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="suscribir" placeholder="Compartenos tu correo">
+                            <button type="submit" class="btn btn-info btn-lg">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6 ">
+                    <img class="img-responsive center-block" src="images/DonCroc.png" alt="Don Croc">
+                </div>
+            </div>
+        </div>
+    </header><!-- #header -->
+
+    <!-- INICIA EL CONTENIDO DE LA PAGINA PRINCIPAL -->
+    <div class="container">
+
+        <div class="row centrado">
+            <div id="acercaDe" class="col-lg-6 col-lg-offset-3">
+                <h1>Acerca de nosotros:</h1>
+                <h2>Espacio para texto matón vendedor:</h2> 
+                <h3>El tiempo es muy valioso, por eso optimizamos nuestro proceso. Esta Landing Page Responsiva fue creada de volada usando Bootstrap y Sass</h3> 
+                <h2 class="CTA"><a href="mailto:moyart@moyart.com.mx">¿Necesitas ayuda?</a></h2>
+            </div>
+        </div>
+
+        <div class="row centrado">
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/frontAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Diseño Front-End</h4>
+                <p>El diseño no tiene que ir peleado con la funcionalidad, por eso utilizamos un diseño centrado en el usuario para poder brindar la mejor experiencia junto a un diseño con gran impacto visual.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/cmsAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Branding de CMS</h4>
+                <p>Nos encanta la web, tenemos mas de 10 años realizando branding para administradores de contenido como Joomla, Wordpress y Microsoft SharePoint.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/AppAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Diseño de Apps Móviles</h4>
+                <p>Creamos aplicaciones moviles utilizando nuestros poderes en HTML5 CSS3 y Javascript, o si lo prefieres, las podemos crear de manera nativa.</p>
+            </div>
+    </div>
+    
+    <hr class="container">
+
+    <div class="container">
+
+        <div id="servicios" class="row centrado">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2>Ejemplos matones de nuestro trabajo</h2>
+                <h3> Slideshow con ejemplos matones de clientes satisfechos, proyectos y casos de éxito</h3>
+            </div>
+        </div>
+
+        <div class="row centrado">
+            <div id="carousel-example-generic" class="carousel slide col-lg-10 col-lg-offset-1" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/banner1.jpg" alt="Lima Glam">
+                    </div><!--item active -->
+                    <div class="item">
+                        <img src="images/banner2.jpg" alt="Lima Glam">
+                    </div><!--item -->
+                    <div class="item">
+                        <img src="images/banner3.jpg" alt="Lima Glam">
+                    </div><!--item -->
+                </div><!--carousel-inner -->
+            </div><!-- TERMINA CARRUSEL -->
+        </div><!-- .row .centrado -->
+    </div>
+    <hr class="container">
+    <div class="container">
+
+        <div class="row centrado">
+            <div id="NuestroEquipo" class="col-lg-6 col-lg-offset-3">
+                <h2>Nuestro Equipo</h2>
+                <h3>Este espacio es para escribir la información acerca de nuestro equipo, una breve descripción o el texto que quieras, ¡el límite es el cielo muchachón!</h3>
+            </div>
+        </div>
+        <div class="row centrado">
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/donPMAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Don PM: Project Manager</h4>
+                <p>Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it</p>
+                <p><i class="glyphicon glyphicon-briefcase"></i> <i class="glyphicon glyphicon-link"></i> <i class="glyphicon glyphicon-globe"></i> </p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/donFrontAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Don Front: Front-End</h4>
+                <p>Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it</p>
+                <p><i class="glyphicon glyphicon-heart"></i> <i class="glyphicon glyphicon-briefcase"></i> <i class="glyphicon glyphicon-link"></i> <i class="glyphicon glyphicon-globe"></i> </p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <img src="images/donDeveloperAvatar.jpg" class="img-circle" width="120px" alt="Avatar">
+                <h4>Don Develop: Developer</h4>
+                <p>Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it</p>
+                <p><i class="glyphicon glyphicon-heart"></i> <i class="glyphicon glyphicon-briefcase"></i> <i class="glyphicon glyphicon-link"></i> <i class="glyphicon glyphicon-globe"></i> </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <hr>
+        <div class="row centrado">
+            <div id="Newsletter" class="col-xs-12 col-sm-5 col-sm-offset-1">
+                <form action="" class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="suscribir" placeholder="Compartenos tu correo">
+                        <button type="submit" class="btn btn-info btn-lg">Enviar</button>
+                    </div>
+                </form>  
+            </div>
+        </div>
+        <hr>
+        <p class="centrado">
+           <a href="">MoyArt´s Landing Page 2016</a>
+        </p>
+    </div>
+
+
+
+
+
+    
+    <!-- ///////// INICIA EL FOOTER /////////////////////////////////////////// -->
+    
+    <footer id="footer"> </footer><!-- #footer -->
+    <!-- Librerias de Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

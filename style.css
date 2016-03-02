@@ -1,0 +1,212 @@
+/*
+Theme Name: Nombre del Tema
+Theme URI: http://www.moyart.com.mx/
+Author: MoyArt
+Author URI: http://www.moyart.com.mx/
+Description: Templete generado para el sitio...
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: fotos, responsive, MoyArt
+Text Domain: moyart.com.mx
+*/
+
+/*///////////////////////// Estilos generales del documento /////////////////////////*/
+@font-face {
+    font-family: "MuseoSans100";
+    src: url('fonts/MuseoSans_100.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Cambia el color de la selección dentro de los navegadores en los navegadores que lo soportan */
+::-moz-selection{
+	background: 				#393939; 
+	color: 					    #fff; 
+	text-shadow: 			    none;
+}
+::selection{
+	background: 				#393939; 
+	color: 					    #fff; 
+	text-shadow: 			    none;
+}
+
+body{
+    width:                      100%;
+	font-size:                  1em;
+	font-family:               'Open Sans', sans-serif;
+    background-color:           #efefef;
+	color:					    #3b3b3b;
+}
+h1, h2, h3, h4{
+	font-family:               'Open Sans', sans-serif;
+}
+
+a{
+ color:                         #8baa0f;   
+}
+
+a:hover, a:focus{
+ color:                         #8baa0f;
+ text-decoration:               underline;   
+}
+
+select{
+    height:                     40px;
+    padding:                    5px 10px;
+    padding-right:              45px;
+    margin:                     40px 28px;
+    background:                 url(images/fondo-select.jpg) right no-repeat;
+    border:                     1px #000 solid;
+    border-radius:              0;
+    -webkit-border-radius:      0;
+    -ms-border-radius:          0;
+    -moz-border-radius:         0;
+    -o-border-radius:           0;
+    -webkit-appearance:         none;
+    font-size:                  14px;
+   
+}
+
+h1{
+    font-size:                  30px;
+    font-weight:                bold;
+    text-shadow:                1px 1px 1px #fe0048; 
+    color:                      #210053;
+    text-transform:             uppercase;
+}
+
+h3{
+    color:                      #680032;
+    margin-bottom:              10px; 
+}
+
+h4{
+    color:                      #262626;
+}
+
+p{
+    color:                      #251f2b;
+}
+
+hr{
+    display:                    block;
+    height:                     1px;
+    border:                     0;
+    border-top:                 1px solid #ddd;
+    margin:                     1em 0;
+    padding:                    0;
+
+}
+
+i{
+
+    color:                      #d00b6a;
+    display:                    inline-block;
+    font-size:                  15px;
+    padding:                    3px;
+}
+
+.floatL{
+	float:					left;
+}
+
+.floatR{
+	float:					right;
+}
+
+.clear{
+    clear:                  both;   
+}
+
+.wrapper{
+    width:                  1024px;
+    display:                block;
+    margin:                 0 auto;
+}
+
+/*********************************** Nav Bar ******************************************/
+.navbar-default{
+    background:             rgba(75,0,37,.8);
+    border-color:           #ff007b;
+}
+
+.navbar-default .navbar-nav li a{
+    color:                  #fff;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
+    color:                  #fff;
+    text-decoration:        underline;
+}
+
+/*********************************** Header ******************************************/
+
+header{
+    background:             url(images/bkgHeader.jpg) no-repeat center;
+    width:                  100%;
+    background-size:        cover;
+    min-height:             480px;
+    padding-top:            100px;
+    border-bottom:          1px solid #ff007b;
+}
+
+header h1{
+    color:                  #fff;
+    margin-bottom:          15px;
+    letter-spacing:         1px;
+    margin-top:             20%
+
+}
+
+.centrado{
+    margin:                 40px 0;
+    text-align:             center; 
+}
+
+.centrado h3{
+    text-align:             justify; 
+}
+
+.form-control {
+    width: 318px!important;
+    padding: 22px 12px;    
+}
+
+@media screen and (max-width:1199px){
+
+    header{
+    min-height:             280px;
+    padding-top:            50px;
+    }
+
+    .header h1{
+    text-align:             center;
+    }
+
+    .form-control {
+    width:                  100% !important;
+    padding:                22px 12px;    
+}
+
+    .btn-info {
+    color:                  #fff;
+    background-color:       #5bc0de;
+    border-color:           #46b8da;
+    margin-top:             20px;
+    width:                  100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header h1{
+        margin: 20px 0;
+        font-size: 24px;
+    }
+
+    .col-md-4, .col-sm-4{
+        margin: 40px 0;
+    }
+
+}
