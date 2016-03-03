@@ -2,6 +2,8 @@ Front-astico!
 ============
 ## A free Landing Page Templete
 
+[Front-Astico Demo Page](http://www.moyart.com.mx/frontastico/) :bowtie:
+
 I design and develop Front-astico! as an excersice, i want to know how much does it takes me to create an average Landing Page using Bootstrap and Sass.
 
 Now im sharing with you, you can use it for all your Landing Pages needs, it would be nice if you give me credit if you use it :grin:
