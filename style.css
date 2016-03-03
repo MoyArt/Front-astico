@@ -134,6 +134,7 @@ i{
 
 .navbar-default .navbar-nav li a{
     color:                  #fff;
+
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
@@ -170,10 +171,63 @@ header h1{
 }
 
 .form-control {
-    width: 318px!important;
-    padding: 22px 12px;    
+    width:                  318px!important;
+    padding:                22px 12px;    
 }
 
+/********************************Animaciones*****************************************/
+
+.donCroc{
+    opacity:                0;
+    left:                   250px;
+    position:               relative;
+    transition:             all 250ms ease-in-out;
+}
+
+.js-donCroc-animado{
+    opacity:                1;
+    left:                   0;
+}
+
+.aDerechaIn, .aTopIn, .aIzqIn {
+    position: relative;
+    opacity: 0;
+    transition:             all 200ms ease-in-out;
+}
+
+.aDerechaIn{
+    left:                   -250px;
+}
+
+.js-aDerechaIn-animado{
+    opacity:                1;
+    left:                   0;
+}
+
+.aTopIn{
+    top:                    -250px;
+}
+
+.js-aTopIn-animado{
+    opacity:                1;
+    top:                    0;
+}
+
+.aIzqIn{
+    left:                   250px;
+}
+
+.js-aIzqIn-animado{
+    opacity:                1;
+    left:                   0;
+}
+
+
+
+
+
+
+/*********************************Media Query***************************************/
 @media screen and (max-width:1199px){
 
     header{
