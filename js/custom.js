@@ -19,6 +19,9 @@ var $donCroc = $('.donCroc');
 var $aDerechaIn = $('.aDerechaIn');
 var $aTopIn = $('.aTopIn');
 var $aIzqIn = $('.aIzqIn');
+var $donPM = $('.donPM');
+var $donFront = $('.donFront');
+var $donDev = $('.donDev');
 
 
 
@@ -54,6 +57,30 @@ $aDerechaIn.waypoint(function(direction){
     $aIzqIn.removeClass("js-aIzqIn-animado");
   }
 }, {offset:450} );
+
+$donPM.waypoint(function(direction){
+  if(direction == 'down'){
+    $donPM.addClass('js-donPM');
+  }else{
+    $donPM.removeClass('js-donPM');
+  }
+}, {offset:450});
+
+$donFront.waypoint(function(direction){
+  if(direction == 'down'){
+    $donFront.addClass('js-donFront')
+  }else{
+    $donFront.removeClass('js-donFront')
+  }
+}, {offset:450});
+
+$donDev.waypoint(function(direction){
+  if(direction == 'down'){
+    $donDev.addClass('js-donDev')
+  } else {
+    $donDev.removeClass('js-donDev')
+  }
+}, {offset:450})
 
 
 
